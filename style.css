@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #222;
+	color: azure;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+}
+
+header {
+	height: 12rem;
+	padding-bottom: 50px;
+	border-bottom: 3px solid azure;
+	background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/027/815/small_2x/rock-paper-scissors-hand-gesture-free-vector.jpg');
+	background-repeat: repeat;
+	background-size: contain;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+h1 {
+	display: inline;
+	margin: 0;
+	text-align: center;
+	padding: 10px 50px;
+	color: azure;
+	border-radius: 20px;
+	border: 3px solid azure;
+}
+
+h3 {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+p {
+	padding: 10px;
+}
+
+.title {
+	display: block;
+	background-color: transparent;
+	text-align: center;
+	margin: 0;
+	padding: 100px;
+}
+
+.btn {
+	border-color: azure;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.again {
+	display: block;
+	margin: 10px auto;
+	width: 40%;
+}
+
+.left,
+.right {
+	text-align: center;
+	margin-top: 10%;
+	padding-top: 20px;
+}
+
+.guess {
+	border-radius: 20px;
+	border-color: azure;
+	height: 34px;
+	padding-left: 10px;
+}
+
+.info {
+	margin-left: 30%;
+	margin-right: 15%;
+	margin-top: 3%;
+	text-align: left;
+	font-size: 16px;
+}
+
+.score {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+	margin-top: 10px;
+}
